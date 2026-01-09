@@ -309,10 +309,8 @@
 #footer-container { 
     width: 1600px;
     height: 200px;
-    background-color: rgb(87, 29, 180);
-    border: 3px solid yellow;}    
-
-
+    background-color: #001931;
+}
 
 #banner .banner-box .banner-button-1:hover{
     background-color: purple;
@@ -352,4 +350,7 @@
     background-color: red;
     transform: scale(1.1);
 }
-
+#s{
+    color: white;
+    font-size: 20px;
+}
