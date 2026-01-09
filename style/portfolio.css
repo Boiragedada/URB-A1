@@ -1,0 +1,35 @@
+#navigation{
+    width: 1600px;
+    height: 92px;
+    border: 3px solid blue;
+}
+
+#navigation .nav-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#navigation .nav-ul .nav-ul-list{
+    display: flex;
+    list-style: none;
+    width: 365px;
+    height: 24px;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px 12px 16px;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 6px;
+    align-items: center;
+}
