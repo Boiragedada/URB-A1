@@ -1,6 +1,6 @@
 #navigation{
     width: 1600px;
-    height: 92px;
+    height: 92px; 
 }
 
 #navigation .nav-ul{
@@ -37,6 +37,7 @@
 #banner{
     width: 1600px;
     height: 674px;
+    border: 1px solid rgb(244, 244, 247);
     background-image: url('../image/hero-bg.png');
     background-size: cover;
 
@@ -136,12 +137,14 @@
     font-weight: bold;
     color: #001931;
    padding-left: 300px;
+   margin-top: 150px;
    margin-bottom: 10px;
 }
 #notes .note-box p{
     font-size: 16px;
     margin-left: 330px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 #notes .card-box{
     width: 322px;
@@ -187,9 +190,6 @@
 #notes .card-big-box{
     margin-left: 50px;
 }
-
-
-
 
 #brain{
     width: 1600px;
@@ -278,4 +278,55 @@
     font-size: 16px;
     color: #627382;
     margin-left: 500px;
+}
+
+ 
+.footer-container { 
+    width: 1600px;
+    height: 150px;
+    background-color: #001f3f;
+    padding: 40px 20px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yellow-border-box {
+    width: 90%; 
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4ade80; 
+}
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+.social-section p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.copyright {
+    font-size: 12px;
+    opacity: 1;
 }
