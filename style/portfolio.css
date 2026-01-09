@@ -191,4 +191,58 @@
 
 
 
+#brain{
+    width: 1600px;
+    height: 840px;
+}
+
+#brain .container{
+    width: 1360px;
+    height: 600px;
+    margin: 120px;
+}
+#brain .container ul .pic{
+    width: 600px;
+    height: 600px;
+    
+}
+#brain .container ul .pe{
+    width: 700px;
+    height: 396px;
+    margin: 70px;
+}
+#brain .container ul{
+    display: flex;
+    list-style: none;
+
+}
+#brain .container ul .pe h6{
+    font-size: 16px;
+    color: #469165;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#brain .container ul .pe h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#brain .container ul .pe p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 0px;
+}
+#brain .container ul .pe ul{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #627382;
+       
+}
+
 
