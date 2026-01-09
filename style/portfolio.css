@@ -263,10 +263,10 @@
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
-    list-style-type: circle;
     padding-left: 20px;
     font-size: 16px;
     color: black;
+    list-style-type: square;
        
 }
 #access{
